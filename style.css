@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* header section style */
+header{
+    height: 840px;
+    width: 100%;
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-color:#FFF8F3;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 20px;
+  
+}
+.dark1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+.navbar span{
+    color: #FD6E0A;
+}
+.nav-List{
+    display: flex;
+    gap: 27px;
+    align-items: center;
+  list-style-type:none ;
+
+}
+.nav-List a{
+    
+    text-decoration: none;
+    color: #474747;
+}
+.btn{
+    height: 65px;
+    width: 150px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.intro{
+    display: flex;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+   background-position: bottom right;
+
+     
+}
+.title {
+    height: 350px;
+    width: 800px;
+    
+   
+   padding-top: 150px;
+   padding-left: 150px;
+}
+.title .dark1{
+    font-size: 70px;
+}
+.title .dark2{
+    font-size: 45px;
+    font-weight:600;
+}
+.dark2{
+    color: #474747;
+}
+.dark3{
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Contract{
+    background-color: #FFF8F3;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+    margin-left: 20px;
+}
+/* main section style */
+.about{
+     height: 550px;
+     width: 1140px;
+     background-color: #FFF8F3;    
+     margin-top: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me{
+    height: 290px;
+    width: 830px;
+    background-color: white;
+}
+.about-me .dark3{
+    margin-top: 20px;
+}
+.about-me .dark1{
+    font-size: 35px;
+}
+.infos{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    
+}
+.info{
+    margin-top: 30px;
+
+}
+.info-value{
+    font-size: 20px;
+}
